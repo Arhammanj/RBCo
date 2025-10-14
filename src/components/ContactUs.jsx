@@ -159,7 +159,7 @@ const ContactUs = () => {
                                     <div>
                                         <h3 className="text-lg font-semibold text-gray-900">Email</h3>
                                         <p className="text-gray-600 mt-1">
-                                            info@rbco.com<br />
+                                            info@rbco.international<br />
                                             
                                         </p>
                                     </div>
