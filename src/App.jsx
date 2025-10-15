@@ -2,9 +2,10 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeaderComponent from "./components/HeaderComponent";
 import Aboutus from "./components/Aboutus";
-import Solutions from "./components/Solutions";
+import ModernSolutions from "./components/ModernSolutions";
 import Projects from "./components/projects";
 import ContactUs from "./components/ContactUs";
+import Investor from "./components/Investor";
 import ArchitectureDesign from "./components/solutions/ArchitectureDesign";
 import TurnKeySolutions from "./components/solutions/TurnKeySolutions";
 import GreyStructure from "./components/solutions/GreyStructure";
@@ -109,7 +110,7 @@ const App = () => {
         <Route path="/" element={
           <div>
             <HeaderComponent />
-            <Solutions />
+            <ModernSolutions />
             <Aboutus />
             <Footer />
             <WhatsAppButton />
@@ -125,6 +126,13 @@ const App = () => {
         <Route path="/contact" element={
           <div>
             <ContactUs />
+            <Footer />
+            <WhatsAppButton />
+          </div>
+        } />
+        <Route path="/investor" element={
+          <div>
+            <Investor />
             <Footer />
             <WhatsAppButton />
           </div>
