@@ -11,6 +11,7 @@ import TurnKeySolutions from "./components/solutions/TurnKeySolutions";
 import GreyStructure from "./components/solutions/GreyStructure";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/Whatsapp";
+import AIAssistant from "./components/AIAssistant";
 
 const App = () => {
   useEffect(() => {
@@ -114,6 +115,7 @@ const App = () => {
             <Aboutus />
             <Footer />
             <WhatsAppButton />
+            <AIAssistant />
           </div>
         } />
         <Route path="/projects" element={
